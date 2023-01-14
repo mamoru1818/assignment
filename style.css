@@ -507,7 +507,7 @@ a {
 /*mainvisual
 -----------------------------------------------------------------*/
 .main__visual {
-  background: url(../img/mv.png) no-repeat center center/cover;
+  background: url(mv.png) no-repeat center center/cover;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .main__visual {
@@ -785,7 +785,7 @@ a {
   content: "";
   width: 18px;
   height: 24px;
-  background: url(../img/news-arrow-1.png) no-repeat center center/contain;
+  background: url(news-arrow-1.png) no-repeat center center/contain;
   top: 50%;
   right: 12px;
   -webkit-transform: translateY(-50%);
@@ -1801,7 +1801,7 @@ a {
 .faqs {
   position: relative;
   top: -29px;
-  background: url(../img/qa-bg.png) no-repeat top 0 center/cover;
+  background: url(qa-bg.png) no-repeat top 0 center/cover;
   padding-bottom: 120px;
 }
 @media (min-width: 375px) and (max-width: 767px) {
@@ -2185,7 +2185,7 @@ a {
 /*contact
 -----------------------------------------------------------------*/
 .contact {
-  background: url(../img/contact-bg.png) no-repeat center center/cover;
+  background: url(contact-bg.png) no-repeat center center/cover;
   margin-top: 376px;
   padding: 60px 0;
 }
@@ -2224,7 +2224,7 @@ a {
 }
 
 .contact__head {
-  background: url(../img/contact1.png) no-repeat center center/cover;
+  background: url(contact1.png) no-repeat center center/cover;
   padding: 55px 0 56px;
   border-radius: 12px 12px 0 0;
 }
@@ -2479,7 +2479,7 @@ a {
   color: inherit;
   font-family: inherit;
   width: 178px;
-  background: #fff url(../img/contact-arrow.png) no-repeat right 14px center/12px 7px;
+  background: #fff url(contact-arrow.png) no-repeat right 14px center/12px 7px;
   font-size: 16px;
   cursor: pointer;
 }
