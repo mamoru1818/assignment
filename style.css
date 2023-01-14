@@ -2993,6 +2993,10 @@ a {
 .footer__row {
   margin-top: 27px;
   letter-spacing: 0.025em;
+  
+  a {
+    color: #fff;
+  }
 }
 @media (min-width: 375px) and (max-width: 767px) {
   .footer__row {
