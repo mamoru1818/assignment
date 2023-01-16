@@ -2960,6 +2960,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   gap: 32px;
+  color: #fff;
+  opacity: 0.6;
 }
 @media (min-width: 375px) and (max-width: 767px) {
   .footer__sns {
@@ -2986,9 +2988,21 @@ a {
 
 .footer__icon__tweeter {
   font-size: 36px;
+  cursor: pointer;
+  -webkit-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+}
+.footer__icon__tweeter:hover {
+  opacity: 0.7;
 }
 .footer__icon__facebook {
   font-size: 36px;
+  cursor: pointer;
+  -webkit-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+}
+.footer__icon__facebook:hover {
+  opacity: 0.7;
 }
 .footer__row {
   margin-top: 27px;
@@ -2996,6 +3010,11 @@ a {
 }
 .footer__row a {
   color: #fff;
+  -webkit-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+}
+.footer__row a:hover {
+  opacity: 0.7;
 }
 @media (min-width: 375px) and (max-width: 767px) {
   .footer__row {
